@@ -1,0 +1,73 @@
+graph 	{
+    fill-color: white,rgb(153,217,234);
+    fill-mode:gradient-radial;
+}
+node {
+    size: 40px, 40px;
+    fill-color: rgb(43,128,123),rgb(3,82,77);
+    fill-mode:gradient-diagonal2;
+    shadow-mode:gradient-radial;
+    shadow-color: gray,rgba(255,255,255,0);
+    text-background-mode:rounded-box;
+    text-style:italic;
+    text-alignment:under;
+    text-padding:2;
+    text-offset:0,5;
+}
+node.Type1 {
+    fill-color: rgb(43,128,255),rgb(3,82,255);
+}
+node.Type2 {
+    fill-color: rgb(43,128,123),rgb(3,82,77);
+}
+node.Type3 {
+    fill-color: rgb(43,200,123),rgb(22,95,59);
+}
+node:selected {
+    fill-color: rgb(113,188,255),rgb(63,142,255);
+    fill-mode:gradient-diagonal2;
+}
+node.Type2:selected {
+    fill-color: rgb(113,188,183),rgb(63,142,137);             	
+    fill-mode:gradient-diagonal2;
+}
+node.Type3:selected {
+    fill-color: rgb(113,255,183),rgb(82,155,119);
+    fill-mode:gradient-diagonal2;
+}
+node:clicked {
+    fill-color: white,red;
+    fill-mode:gradient-diagonal2;
+}
+node.Type2:clicked {
+    fill-color: white,red;
+    fill-mode:gradient-diagonal2;
+}
+node.Type3:clicked {
+    fill-color: white,red;
+    fill-mode:gradient-diagonal2;
+}
+edge.contrast{
+    fill-color: grey;
+    shadow-mode: gradient-radial;
+    shadow-color: red;
+    shadow-width: 1;
+    shadow-offset: 0;
+    arrow-shape: none;
+}
+edge.interact{
+    fill-color: grey;
+    shadow-mode: gradient-radial;
+    shadow-color: yellow;
+    shadow-width: 1;
+    shadow-offset: 0;
+    arrow-shape: none;
+}
+edge.simple{
+    fill-color: grey;
+    shadow-mode: gradient-radial;
+    shadow-color: green;
+    shadow-width: 1;
+    shadow-offset: 0;
+    arrow-shape: none;
+}
