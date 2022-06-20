@@ -1,0 +1,13 @@
+A Plataforma STEER foi desenvolvida sob o SDN-WISE. A solução consiste em uma abordagem SDN para internet das coisas. Os passos para instalação da plataforma 
+estão descritos abaixo.
+
+- O contiki deverá estar instalado, os passos para instalação podem ser encontrados em: https://sdnwiselab.github.io/docs/guides/GetStarted.html
+
+- No tutorial acima, temos os passos para a instalação do versão do contiki utilizada no desenvolvimento deste trabalho, juntamente com a versão 
+original do SDN-WISE.
+
+- A versão do SDN-WISE utilizada na Plataforma STEER está disponível no repositório: sdn-wise_java. É possível ter acesso ao Agente IDN implementado nos
+motes do SDN-WISE
+
+
+Obs: Esse documento está em andamento.
