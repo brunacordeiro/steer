@@ -6,8 +6,9 @@ estão descritos abaixo.
 - No tutorial acima, temos os passos para a instalação do versão do contiki utilizada no desenvolvimento deste trabalho, juntamente com a versão 
 original do SDN-WISE.
 
-- A versão do SDN-WISE utilizada na Plataforma STEER está disponível no repositório: sdn-wise_java. É possível ter acesso ao Agente IDN implementado nos
+- A versão do SDN-WISE utilizada na Plataforma STEER está disponível no diretório: sdn-wise_java. É possível ter acesso ao Agente IDN implementado nos
 motes do SDN-WISE
 
+- O diretório STEER contém a implementação do controlador SDN e do Mediador
 
 Obs: Esse documento está em andamento.
