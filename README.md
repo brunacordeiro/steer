@@ -4,5 +4,5 @@ STEER (**S**DN-based In**TE**nt-Driv**E**n IoT Netwo**R**ks)  é caracterizada, 
 Por meio da junção dos conceitos de Redes Definidas por Software (SDN) e Redes Dirigidas por Intenções (IDN), temos o objetivo apresentar uma proposta capaz de auto-adaptar a rede em tempo de execução sem o uso de regras predefinidas. Levando em consideração apenas o contexto operacional da rede e as metas de alto-nível definidas pelas aplicações. Para tanto, o conceito de SDN é explorado como o mecanismo de adaptação para o comportamento da rede, assim como IDN é utilizado para viabilizar a interpretação das metas definidas pelas aplicações usando uma linguagem declarativa, com a finalidade de nortear o processo adaptativo da rede. 
 
 <p align="center">
-  <img src="https://github.com/brunacordeiro/steer/blob/main/IMG/C%C3%B3pia%20de%20arqSTEER.jpg" width="700" title="hover text">
+  <img src="https://github.com/brunacordeiro/steer/blob/main/IMG/arqSTEER-english.jpg" width="700" title="hover text">
 </p>
