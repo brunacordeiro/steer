@@ -1,40 +1,40 @@
-Neste tutorial vamos realizar a instalação da camada de SDN para IoT e da camada de IDN para IoT.
-É indicado que a solução seja executada em um ambiente linux, porém a instalação em máquinas virtuais também pode ser realizada.
+In this tutorial we will perform the installation of the SDN layer for IoT and the IDN layer for IoT.
+It is indicated that the solution is executed in a linux environment, however the installation in virtual machines can also be performed.
 
-**Instalação e configuração da SDN and IDN for IoT Layer**
+**Installation and configuration of SDN and IDN for IoT Layer**
 
-Inicialmente é necessário a instalação do SDN-WISE que pode ser feita diretamento pelo tutorial de instalação disponibilizado em: https://sdnwiselab.github.io/docs/guides/GetStarted
+Initially, it is necessary to install SDN-WISE, which can be done directly through the installation tutorial available at: https://sdnwiselab.github.io/docs/guides/GetStarted
 
-Todos os passos presentes no tutorial de instalação do SDN-WISE devem ser seguidos para que a solução STEER possa ser executada.
+All steps present in the SDN-WISE installation tutorial must be followed so that the STEER solution can be executed.
 
-Após o SDN-WISE ter sido instalado, é indicado que a diretorio sdn-wise_java disponível em: https://github.com/brunacordeiro/steer/tree/main/sdn-wise_java seja substituido.
+After SDN-WISE has been installed, it is recommended that the sdn-wise_java directory available at: https://github.com/brunacordeiro/steer/tree/main/sdn-wise_java be replaced.
 
-*Para substituir o diretório é necessário entrar em: /home/contiki/tools/cooja/examples e substituir o diretorio original do SDN-WISE pelo diretório disponível aqui
+*To replace the directory, go to: /home/contiki/tools/cooja/examples and replace the original SDN-WISE directory with the directory available here
 
-O Controlador SDN e o Mediador IDN estão disponíveis em um projeto: https://github.com/brunacordeiro/steer/blob/main/SDN_IDN-IoT 
+The SDN Controller and IDN Mediator are available in a project: https://github.com/brunacordeiro/steer/blob/main/SDN_IDN-IoT
 
-O projeto SDN-IDN-IoT pode ser executado com o Netbeans IDE, está codificado em Java. Este projeto pode ser executado em uma máquina diferente de onde o SDN-WISE foi instalado, mas é necessário ter o endereço de IP para que a rede IoT possa realizar a comunicação com o controlador SDN.
+The SDN-IDN-IoT project can be run with Netbeans IDE, it is coded in Java. This project can be run on a different machine than where SDN-WISE was installed, but it is necessary to have the IP address so that the IoT network can communicate with the SDN controller.
 
-**Executando STEER**
+**Executing STEER**
 
-Para que seja possível visualizar a execução da solucão STEER é necessário:
+In order to be able to visualize the execution of the STEER solution it is necessary:
 
-1 - no ambiente onde foi instalado o SDN-WISE é necessário executar o emulador cooja. Ao abrir o emulador é necessário identificar o endereço de IP da máquina onde o controlador SDN foi instalado.
-
-<p align="center">
-  <img src="https://github.com/brunacordeiro/steer/blob/main/IMG/Execute-cooja.png" width="700" title="hover text">
-</p>
-
-2 - com o emulador cooja aberto, a simulação pode ser selecionada: Simulation - SDN-IDN-IoT.csc disponível em: https://github.com/brunacordeiro/steer/blob/main/Simulation%20-%20SDN-IDN-IoT.csc 
+1 - in the environment where SDN-WISE was installed, it is necessary to run the cooja emulator. When opening the emulator, it is necessary to identify the IP address of the machine where the SDN controller was installed.
 
 <p align="center">
-  <img src="https://github.com/brunacordeiro/steer/blob/main/IMG/simulation.png" width="700" title="hover text">
+  <img src="https://github.com/brunacordeiro/steer/blob/main/IMG/Execute-cooja.png" width="300" title="hover text">
 </p>
 
-3 - Antes de executar a simulação é necessário que o controlador SDN esteja executando. Dessa forma, é necessário entrar no projeto SDN-IDN-IoT do Netbeans e executar o projeto.
+2 - with the cooja emulator open, the simulation can be selected: Simulation - SDN-IDN-IoT.csc available at: https://github.com/brunacordeiro/steer/blob/main/Simulation%20-%20SDN-IDN -IoT.csc
+
+<p align="center">
+  <img src="https://github.com/brunacordeiro/steer/blob/main/IMG/simulation.png" width="600" title="hover text">
+</p>
+
+3 - Before running the simulation, the SDN controller must be running. So, you need to enter the Netbeans SDN-IDN-IoT project and run the project.
 
 <p align="center">
   <img src="https://github.com/brunacordeiro/steer/blob/main/IMG/ExecuteControllerSDN.png" width="700" title="hover text">
 </p>
 
-4 - Neste momento o controlador está aguardano a conexão dos nós sensores, basta iniciar a execução da simulação no cooja e acompanhar as mensagens de impressão.
+4 - At this moment, the controller is waiting for the connection of the sensor nodes, just start the execution of the simulation in cooja and follow the print messages.
