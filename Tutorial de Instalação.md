@@ -22,7 +22,7 @@ In order to be able to visualize the execution of the STEER solution it is neces
 1 - in the environment where SDN-WISE was installed, it is necessary to run the cooja emulator. When opening the emulator, it is necessary to identify the IP address of the machine where the SDN controller was installed.
 
 <p align="center">
-  <img src="https://github.com/brunacordeiro/steer/blob/main/IMG/Execute-cooja.png" width="300" title="hover text">
+  <img src="https://github.com/brunacordeiro/steer/blob/main/IMG/Execute-cooja.png" width="500" title="hover text">
 </p>
 
 2 - with the cooja emulator open, the simulation can be selected: Simulation - SDN-IDN-IoT.csc available at: https://github.com/brunacordeiro/steer/blob/main/Simulation%20-%20SDN-IDN -IoT.csc
