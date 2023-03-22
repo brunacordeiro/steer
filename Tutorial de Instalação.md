@@ -28,7 +28,7 @@ Para que seja possível visualizar a execução da solucão STEER é necessário
 2 - com o emulador cooja aberto, a simulação pode ser selecionada: Simulation - SDN-IDN-IoT.csc disponível em: https://github.com/brunacordeiro/steer/blob/main/Simulation%20-%20SDN-IDN-IoT.csc 
 
 <p align="center">
-  <img src="https://github.com/brunacordeiro/steer/blob/main/IMG/asimulation.png" width="700" title="hover text">
+  <img src="https://github.com/brunacordeiro/steer/blob/main/IMG/simulation.png" width="700" title="hover text">
 </p>
 
 3 - Antes de executar a simulação é necessário que o controlador SDN esteja executando. Dessa forma, é necessário entrar no projeto SDN-IDN-IoT do Netbeans e executar o projeto.
