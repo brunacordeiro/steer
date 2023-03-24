@@ -10,6 +10,8 @@ Figure presents the STEER architecture, composed by three layers:
 * the **IDN for IoT Layer**, composed by a **Manager**, which maintains a set of templates for intent definition, along with the set of available behaviors, a **Mediator**, which is responsible for interpreting intents and deploying the most appropriate behavior on the network, and a **Communication** module, responsible for the interaction with the SDN layer; and
 * the **Application Layer**, which is composed by the user applications and tools to create intents and behaviors.
 
+
+--------------------------------
 In this repository you can find:
 
 * Tutorial for installing the STEER solution: **Installation Tutorial**
