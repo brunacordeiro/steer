@@ -1,2 +1,4 @@
 
-Este diretório contém o código fonte da infraestrutura da rede IoT adaptada do SDN-WISE.
+This directory contains the source code of the IoT network infrastructure adapted from SDN-WISE.
+
+...
