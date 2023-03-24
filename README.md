@@ -19,8 +19,9 @@ In this repository you can find:
 * Example of IoT network simulation that can be emulated in cooja: **Simulation - SDN-IDN-IoT.csc**
 * Dataset of the real data used by the sensor nodes: **dataset_AirPure.csv**
 
-The steps for installing and configuring the STEER solution present in the **Installation Tutorial** indicate how **Simulation - SDN-IDN-IoT.csc** can be opened in the Cooja emulator.
-The steps for installing and configuring the emulator are also indicated in the installation tutorial.
+In addition to the files mentioned, it is possible to access the sdn-wise_java directory that contains the source code of the infrastructure based on the SDN-WISE solution. Directory organization is described in the directory organization.md document.
+
+The steps for installing and configuring the STEER solution present in the **Installation Tutorial** presents all the installation details of the base solution (SDN-WISE) together with the Cooja emulator, where an example of STEER simulation - **Simulation - SDN-IDN-IoT.csc** can be executed.
 
 The **SDN_IDN-IoT** project source code is extracted from the Netbeans IDE, so it can be opened using this IDE <https://netbeans.apache.org/download/index.html>. The project uses Maven which consist of a Java project automation and management tool.
 
